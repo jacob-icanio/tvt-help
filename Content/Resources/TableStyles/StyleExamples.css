@@ -1,0 +1,932 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: StyleExamples;
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	max-id: 5;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	size: 50%;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column2;
+	size: 50%;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+	font-weight: bold;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: HeaderRow;
+	id: 1;
+	font-weight: bold;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	id: 4;
+	name: ExampleRow;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-StyleExamples
+{
+	border-collapse: collapse;
+	border-left-style: solid;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: solid;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-StyleExamples-Column-Column1
+{
+	width: 50%;
+}
+
+.TableStyle-StyleExamples-Column-Column2
+{
+	width: 50%;
+}
+
+.TableStyle-StyleExamples-Head-Header1
+{
+	
+}
+
+.TableStyle-StyleExamples-HeadI-Column1-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadI-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadE-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadE-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadF-Column1-Header1
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadF-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadH-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadH-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadD-Column1-Header1
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadD-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadC-Column1-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadC-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadB-Column1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadB-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadA-Column1-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadA-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadG-Column1-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadG-Column1-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadI-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadI-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadE-Column2-Header1
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadE-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadF-Column2-Header1
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadF-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadH-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadH-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadD-Column2-Header1
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-HeadD-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadC-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadC-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadB-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadB-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadA-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadA-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadG-Column2-Header1
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-HeadG-Column2-Header1 p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-Foot-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootI-Column1-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootE-Column1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootF-Column1-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootH-Column1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootD-Column1-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootC-Column1-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootB-Column1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootA-Column1-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootG-Column1-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootI-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootE-Column2-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootF-Column2-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootH-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootD-Column2-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-StyleExamples-FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootC-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootB-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootA-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-FootG-Column2-Footer1
+{
+	
+}
+
+.TableStyle-StyleExamples-FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-StyleExamples-Body-HeaderRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyI-Column1-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyI-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyE-Column1-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyE-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyF-Column1-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyF-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyH-Column1-HeaderRow
+{
+	font-weight: bold;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyH-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyD-Column1-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyD-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyC-Column1-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyC-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyB-Column1-HeaderRow
+{
+	font-weight: bold;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyB-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyA-Column1-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyA-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyG-Column1-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyG-Column1-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyI-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyI-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyE-Column2-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyE-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyF-Column2-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyF-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyH-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyH-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyD-Column2-HeaderRow
+{
+	font-weight: bold;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyD-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyC-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyC-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyB-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyB-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyA-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyA-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyG-Column2-HeaderRow
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-BodyG-Column2-HeaderRow p
+{
+	font-weight: bold;
+}
+
+.TableStyle-StyleExamples-Body-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyI-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyI-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyE-Column1-ExampleRow
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyE-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyF-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyF-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyH-Column1-ExampleRow
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyH-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyD-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyD-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyC-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyC-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyB-Column1-ExampleRow
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: solid;
+}
+
+.TableStyle-StyleExamples-BodyB-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyA-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyA-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyG-Column1-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyG-Column1-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyI-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyI-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyE-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyE-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyF-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyF-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyH-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyH-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyD-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyD-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyC-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyC-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyB-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyB-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyA-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyA-Column2-ExampleRow p
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyG-Column2-ExampleRow
+{
+	
+}
+
+.TableStyle-StyleExamples-BodyG-Column2-ExampleRow p
+{
+	
+}
+
+

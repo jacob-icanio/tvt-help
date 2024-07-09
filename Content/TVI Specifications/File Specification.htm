@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="_Skins_HTML5___Top_Navigation" lang="en-us" xml:lang="en-us" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" /><title> 2. TVI File Specification</title>
+        <link href="../Resources/Stylesheets/TVT Manual.css" rel="stylesheet" type="text/css" />
+        <script src="../../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-drilldown vertical menu off-canvas-list" data-drilldown="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-drilldown-submenu-parent" data-mc-css-tree-node-collapsed="is-drilldown-submenu-parent" data-mc-css-sub-menu="vertical menu slide-in-right is-drilldown-submenu" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="True" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.drilldown" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div>
+                        <nav class="title-bar tab-bar" role="banner" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../TVT Manual/Printed_Manual_Title.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div id="mc-main-content" role="main" data-mc-content-body="True">
+                                    <h1 class="Heading1_1" data-mc-autonum="36 "><span class="autonumber"><span>36 </span></span><span class="span_2"> 2. </span>TVI File Specification</h1>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.1 "><span class="autonumber"><span>36.1 </span></span><span class="span_2">2.1. </span>XML Header</h2>
+                                    <p class="p_1">The TVI format is based on XML. Therefore an XML header should be provided. TVT is able to read typical encodings.</p>
+                                    <p class="p_1">&#160;</p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;?xml version="1.0" encoding ="utf-8"?&gt;</span>
+                                    </p>
+                                    <p class="p_1">&#160;</p>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.2 "><span class="autonumber"><span>36.2 </span></span><span class="span_2">2.2. </span>General File Structure</h2>
+                                    <p class="p_1">The TVI file is based on XML and provides TVT with information necessary to set up a project. It also contains target file names for the finalization of the project. In addition, it contains settings to overrule the settings in TVT. The overall tag structure is quite simple:</p>
+                                    <p class="p_1">&#160;</p>
+                                    <p class="p_1">
+                                        <img src="../GeneratedImages/PDFs/FileStructure_1_430x215.png" style="width: 430;height: 215;" />
+                                    </p>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.3 "><span class="autonumber"><span>36.3 </span></span><span class="span_2">2.3. </span>tvi element</h2>
+                                    <p class="p_1"><span class="span_1">The &lt;tvi&gt; element is the main node of a tvi file. It has only one &lt;project&gt; child element. For development purposes, the &lt;tvi&gt; element should be enriched by a reference to its schema, which adds basic syntax checking and intellisense in XML editors.</span>
+                                    </p>
+                                    <p class="p_1">&#160;</p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;tvi </span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&#160;&#160;&#160; xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&#160;&#160;&#160; xsi:noNamespaceSchemaLocation="Schema/tvi.xsd"</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&#160;&#160;&#160; &gt;</span>
+                                    </p>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.4 "><span class="autonumber"><span>36.4 </span></span><span class="span_2">2.4. </span>project element</h2>
+                                    <p class="p_1">The &lt;project&gt; element must contain at least two &lt;file&gt; elements. There can only be one &lt;project&gt; element in a tvi file.</p>
+                                    <p class="p_1">&#160;</p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;project mode="init" settings="options1" name=”my project”&gt;</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.1 "><span class="autonumber"><span>36.4.1 </span></span><span class="span_2">2.4.1. </span>mode attribute</h3>
+                                    <p class="p_1"><span class="span_1">The possible values for the mode are “init”, “in” and “inout”, which represent the operation modes described in <a href="Overview.htm#_Ref269475156" class="ParaTextOnly MCXref xref xrefParaTextOnly">1.1. Operation Modes</a> above.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.2 "><span class="autonumber"><span>36.4.2 </span></span><a name="_Ref330386553"></a><span class="span_2">2.4.2. </span>settings attribute</h3>
+                                    <p class="p_1"><span class="span_1">The value of the settings attribute specifies a project settings file that comes with the installed TVT version. The name must be specified without any extension or path. For the complete list of possible values, refer to the “projectsettings” folder of the TVT installation path. Typically, the following values are used:</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">options1&#160;&#160;&#160;&#160;Leaflets settings</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">options2&#160;&#160;&#160;&#160;Cartons settings</span> </p>
+                                    <p class="p_1"><span class="span_1">options3&#160;&#160;&#160;&#160;Documents settings</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.3 "><span class="autonumber"><span>36.4.3 </span></span><span class="span_2">2.4.3. </span>name attribute</h3>
+                                    <p class="p_1"><span class="span_1">The optional name attribute sets the TVT project name. If omitted, TVT will provide a suitable default. The project name may not be empty, and may not contain characters that are not valid in file names. TVT does not permit changing the project name in the “in” and “inout” modes.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.4 "><span class="autonumber"><span>36.4.4 </span></span><span class="span_2">2.4.4. </span>id attribute</h3>
+                                    <p class="p_1">The id attribute is currently not used by TVT.</p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.5 "><span class="autonumber"><span>36.4.5 </span></span><a name="2.4.5."></a><span class="span_2">2.4.5. </span>auto_compare attribute</h3>
+                                    <p class="p_1"><span class="span_1">This is an optional attribute. If this attribute has the value “true” or “1”, TVT will automatically initiate the comparison (as if the Compare button were clicked) as soon as it has successfully loaded all files. Setting the attribute to other values, or not setting it at all, has no effect.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.6 "><span class="autonumber"><span>36.4.6 </span></span><a name="2.4.6."></a><span class="span_2">2.4.6. </span>style_check attribute</h3>
+                                    <p class="p_1"><span class="span_1">This is an optional attribute. The following four values can be used to run an automatic style check: “OneOnOne”, “Adaptive”, “SimplifiedAdaptive”, “Simplified”. Styles can only be checked in compared projects. Therefore, the TVI must either specify a compared project to be loaded or create a new project with an automatic comparison (<a href="#2.4.5." class="ParaTextOnly MCXref xref xrefParaTextOnly">2.4.5. auto_compare attribute</a>) enabled. If the loaded project already contains style check results, they are reset.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.7 "><span class="autonumber"><span>36.4.7 </span></span><span class="span_2">2.4.7. </span>style_conformity_check attribute</h3>
+                                    <p class="p_1"><span class="span_1">This is an optional attribute. The value of the settings attribute specifies a style conformity file that comes with the installed TVT version. The name must be specified without any extension or path. For the complete list of possible values, refer to the “Additional Input” folder of the TVT installation path. For example, “fontsize_min_5pt” is a valid case. The requirements for using style conformity check are the same as for style check (<a href="#2.4.6." class="ParaTextOnly MCXref xref xrefParaTextOnly">2.4.6. style_check attribute</a>).</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.8 "><span class="autonumber"><span>36.4.8 </span></span><span class="span_2">2.4.8. </span>auto_finalize attribute</h3>
+                                    <p class="p_1"><span class="span_1">This optional attribute may only be used in the “inout” mode. Setting this attribute to “true” or “1” has the following effect: After a successful comparison (i.e. if the comparison is not interrupted by pressing the Cancel button), TVT will immediately begin the project finalization and then close TVT. The finalization omits the finalization dialog (please see <a href="Overview.htm#_Ref321919060" class="ParaTextOnly MCXref xref xrefParaTextOnly">1.1.3. InOut Mode
+        </a> above) and is automatically set to “Finish Project”.</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">The auto_finalize attribute can be used in combination with the auto_compare attribute to run TVT in a semi-unattended manner. If both attributes are set to “true”, TVT will automatically load the input files, compare them, finalize the project by writing all specified output files, and then close. (Note that this is not a true unattended mode, since TVT might display warning dialogs that need to be dismissed by a user.)</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.9 "><span class="autonumber"><span>36.4.9 </span></span><span class="span_2">2.4.9. </span>mark_unmarked attribute</h3>
+                                    <p class="p_1"><span class="span_1">This optional attribute may only be used in the “inout” mode, and either the auto_compare attribute is set to “true”, or an already compared project is loaded. If set to one of the three permitted values, the finalization that is initiated by selecting “Finish Project” will do the following: Before writing the ouput files, all Deviations that have not already been marked by a user will be marked in the specified manner. Deviations that have been marked by a user will be left untouched. The permitted values for this attribute are:</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">original&#160;&#160;&#160;marks all unmarked Deviations as if “Mark in Original” had been clicked</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">copy&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;marks all unmarked Deviations as if “Mark in Copy” had been clicked</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">both&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;marks all unmarked Deviations as if “Mark in Both” had been clicked</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">The “Cartons” settings (please see <a href="#_Ref330386553" class="ParaTextOnly MCXref xref xrefParaTextOnly">2.4.2. settings attribute</a> above) should not be used in conjunction with the “original” or “both” values; only “copy” is permitted in this combination.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.4.10 "><span class="autonumber"><span>36.4.10 </span></span><span class="span_2">2.4.10. </span>username attribute</h3>
+                                    <p class="p_1"><span class="span_1">This optional attribute can be used to set the user name to which all actions (e.g. comparing/finalizing a project, marking deviations etc.) will be attributed. The user name will have “(TVI)” appended in such logs to clarify the source of the user name.</span>
+                                    </p>
+                                    <p class="p_1">&#160;</p>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.5 "><span class="autonumber"><span>36.5 </span></span><span class="span_2">2.5. </span>file element</h2>
+                                    <p class="p_1"><span class="span_1">The file element is the multi-purpose tool for specifying any input and output document in the TVI.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.5.1 "><span class="autonumber"><span>36.5.1 </span></span><span class="span_2">2.5.1. </span>type attribute</h3>
+                                    <p class="p_1">The type is the main attribute of each file. Depending on its value and the operation mode, TVT decides which other attributes are required as shown in the following table:</p>
+                                    <p class="p_1">&#160;</p>
+                                    <table class="table_1">
+                                        <col style="width: 249px;" />
+                                        <col style="width: 147px;" />
+                                        <col style="width: 156px;" />
+                                        <col style="width: 161px;" />
+                                        <thead>
+                                            <tr>
+                                                <th class="th_1">
+                                                    <p class="p_5">type</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">side</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">path_in</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">path_out</p>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">document</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">IO</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">project</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">O</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">IO</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">ignoretemplate</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">excludelist</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">criticalwords</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">defaultcriticalwordlists</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">M</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">report</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">IO</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">result</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">X</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">IO</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <p class="p_1"><span class="span_1"><br />M&#160;&#160;&#160;&#160;Mandatory</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">O&#160;&#160;&#160;&#160;Optional</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">IO&#160;&#160;&#160;&#160;Optional in “inout” mode, unused otherwise</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">X&#160;&#160;&#160;&#160;Unused / not supported</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.1 "><span class="autonumber"><span>36.5.1.1 </span></span><span class="span_2">2.5.1.1. </span>document</h4>
+                                    <p class="p_1"><span class="span_1">The document type represents a file that is going to be loaded into TVT for comparison. Multiple file elements with identical sides can be chained, in order to load multiple files either as manuscript or copy. The document type serves as fallback if no type attribute is specified in a file element.</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">In the “inout” mode, the “path_out” attribute may be used to specify the path to the directory, in which the exported PDF document will be written. If this attribute is omitted, TVT will not create an exported version of this document. It is therefore valid to export only a subset of the documents in the project.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.2 "><span class="autonumber"><span>36.5.1.2 </span></span><span class="span_2">2.5.1.2. </span>project</h4>
+                                    <p class="p_1"><span class="span_1">When a project is given through the path_in attribute, TVT will automatically load it. Although saved projects contain local links to their document files, these must be additionally specified in the TVI file. This way, it is ensured that the documents may be loaded automatically, even if their names have been changed in the meantime (e.g. by the DMS they originate from).</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.3 "><span class="autonumber"><span>36.5.1.3 </span></span><span class="span_2">2.5.1.3. </span>ignoretemplate</h4>
+                                    <p class="p_1"><span class="span_1">Exclusion templates can be applied by using the ignoretemplate attribute. The document side, on which the template will be used, has to be specified and it will affect all documents there.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.4 "><span class="autonumber"><span>36.5.1.4 </span></span><span class="span_2">2.5.1.4. </span>excludelist</h4>
+                                    <p class="p_1"><span class="span_1">Like the exclusion template, an exclusion list may be applied to either document side by using the excludelist attribute.</span>
+                                    </p>
+                                    <p class="p_1"><span class="span_1">Use “none” as value to disable the default Exclusion Word List without specifying a list.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.5 "><span class="autonumber"><span>36.5.1.5 </span></span><span class="span_2">2.5.1.5. </span>criticalwords</h4>
+                                    <p class="p_1"><span class="span_1">Critical Word Lists are applied to both document sides and only one may be named. A full path to a custom Critical Word List can be specified.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.6 "><span class="autonumber"><span>36.5.1.6 </span></span><span class="span_1"><span class="span_2">2.5.1.6. </span>defaultcriticalwordlists</span>
+                                    </h4>
+                                    <p class="p_1"><span class="span_1">The defaultcriticalwordlist attribute can be used to apply any of the existing Critical Word Lists. The names of the lists should be specified without a path, include an extension and be separated by the Vertical Line character ‘|’ (U+007C). For instance, entering “si_units.tvcrit|trademarks.tvcrit” will activate two Critical Word Lists. For a complete list of possible values, refer to the “Additional Input” folder in the TVT program directory.<br />Use “none” as value to disable the default Critical Word List without specifying a list.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.7 "><span class="autonumber"><span>36.5.1.7 </span></span><span class="span_2">2.5.1.7. </span>report</h4>
+                                    <p class="p_1"><span class="span_1">By setting the report attribute, TVT can be told to generate a project report in the file format of the extension. Report settings are applied as provided by the TVT User Settings.</span>
+                                    </p>
+                                    <h4 class="Heading4_1" data-mc-autonum="36.5.1.8 "><span class="autonumber"><span>36.5.1.8 </span></span><span class="span_2">2.5.1.8. </span>result</h4>
+                                    <p class="p_1"><span class="span_1">The result file is a simple text document, which is generated by TVT when it is closed in “inout” mode. The finalization action set in TVT will be propagated to this file. It may contain one of the following texts:</span>
+                                    </p>
+                                    <ul class="ul_1">
+                                        <li class="li_1">
+                                            <p class="p_1">FINISHED</p>
+                                        </li>
+                                        <li class="li_1">
+                                            <p class="p_1">SAVED</p>
+                                        </li>
+                                        <li class="li_1">
+                                            <p class="p_1">CANCELLED</p>
+                                        </li>
+                                    </ul>
+                                    <p class="p_1"><span class="span_1">It is encoded in UTF-16LE. Before evaluating all TVT result files, the TVT Wrapper has to wait until the “result” file is properly created, filled out and closed. If the result file specification is omitted, the file will not be generated.</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.5.2 "><span class="autonumber"><span>36.5.2 </span></span><span class="span_2">2.5.2. </span>side attribute</h3>
+                                    <p class="p_1">For files that are relating to a certain side of the project, it is necessary to specify either “original” or “copy” as value of the side attribute.</p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.5.3 "><span class="autonumber"><span>36.5.3 </span></span><span class="span_2">2.5.3. </span>path_in attribute</h3>
+                                    <p class="p_1">All input files require the “path_in” attribute. It may contain a full path name or a relative path as seen from the location of the TVI file.</p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.5.4 "><span class="autonumber"><span>36.5.4 </span></span><span class="span_2">2.5.4. </span>path_out attribute</h3>
+                                    <p class="p_1">Output files must be set in the “path_out” attribute. Some file types (e.g. documents and projects) may combine “path_in” and “path_out” attributes. Except for project files, documents should not be overwritten by TVT. </p>
+                                    <p class="p_1">In addition to PDF, exported files can be in the XFDF file format as well.</p>
+                                    <p class="p_1">&#160;</p>
+                                    <h2 class="Heading2_1" data-mc-autonum="36.6 "><span class="autonumber"><span>36.6 </span></span><span class="span_2">2.6. </span>settings element</h2>
+                                    <p class="p_1"><span class="span_1">The settings element can be used to set permissions individually, in addition to the mode. The structure contains categories with several properties beneath, e.g.:</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;settings&gt;</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;CATEGORY ID="PERMISSIONS"&gt;</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;PROPERTY ID="PROVIDE_EXPORT_FILE_ORIG" VALUE="1"/&gt;</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;/CATEGORY&gt;</span>
+                                    </p>
+                                    <p class="p_1"><span class="HTMLCode_1">&lt;/settings&gt;</span>
+                                    </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.6.1 "><span class="autonumber"><span>36.6.1 </span></span><span class="span_2">2.6.1. </span>category element</h3>
+                                    <p class="p_1">The category is used to group the permissions. In TVI only one category is used and it is named "PERMISSIONS". </p>
+                                    <h3 class="Heading3_1" data-mc-autonum="36.6.2 "><span class="autonumber"><span>36.6.2 </span></span><span class="span_2">2.6.2. </span>property element</h3>
+                                    <p class="p_1">In the category element PERMISSIONS, multiple permissions can be defined. Dependent on the mode, some functions are not enabled in TVT or not executed automatically in this particular mode. By using the permissions, this behavior can be individually adapted. The below list shows all possible values, their default state in each mode and their effect.</p>
+                                    <p class="p_1">&#160;</p>
+                                    <table class="table_1">
+                                        <col style="width: 480px;" />
+                                        <col style="width: 50px;" />
+                                        <col style="width: 50px;" />
+                                        <col style="width: 50px;" />
+                                        <col style="width: 300px;" />
+                                        <thead>
+                                            <tr>
+                                                <th class="th_1">
+                                                    <p class="p_5">ID</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">Init mode</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">In mode</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">InOut mode</p>
+                                                </th>
+                                                <th class="th_2">
+                                                    <p class="p_5">effect</p>
+                                                </th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_EXPORT_ORIG</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">Original document(s) can be exported manually</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_EXPORT_COPY</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">Copy document(s) can be exported manually</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_REPORT</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The report can be created manually</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_PROJECT</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The project can be saved manually</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">PROVIDE_EXPORT_FILE_ORIG</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">Path for the export of the original document(s) can be chosen.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">PROVIDE_EXPORT_FILE_COPY</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p>Path for the export of the copy document(s) can be chosen.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">PROVIDE_REPORT_FILE</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">Path for saving the report can be chosen.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">PROVIDE_PROJECT_FILE</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">Path for saving the project can be chosen.</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">LOAD_EXCLUSION_TEMPLATE_ORIG</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The function to load an exclusion template for the original document(s) is enabled/disabled.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">LOAD_EXCLUSION_TEMPLATE_COPY</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The function to load an exclusion template for the copy document(s) is enabled/disabled.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_EXCLUSION_TEMPLATE_ORIG</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The function to save an exclusion template for the original document(s) is enable/disabled.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">SAVE_EXCLUSION_TEMPLATE_COPY</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">The function to save an exclusion template for the copy document(s) is enable/disabled.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">RECONFIGURATION</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">It is possible to change the project setup.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">CHANGE_CRITICAL_WORD_LISTS</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">It is possible to change the critical word lists.</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">CHANGE_EXCLUSION_WORD_LIST_ORIG</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">It is possible to change the exclusion word list for original document(s).</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">CHANGE_EXCLUSION_WORD_LIST_COPY</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">It is possible to change the exclusion word list for copy document(s).</p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="td_1">
+                                                    <p class="p_1">CHANGE_PROJECT_NAME</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✓</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_3">
+                                                    <p class="p_1">✕</p>
+                                                </td>
+                                                <td class="td_2">
+                                                    <p class="p_1">It is possible to change the project name.</p>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

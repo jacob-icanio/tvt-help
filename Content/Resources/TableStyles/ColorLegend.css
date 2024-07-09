@@ -1,0 +1,1263 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: ColorLegend;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-width: 0px;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-top-color: #000000;
+	border-bottom-style: none;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	max-id: 8;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #000000;
+	name: Column1;
+	id: 0;
+	text-align: left;
+	vertical-align: top;
+	size: 50px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Column2;
+	text-align: left;
+	vertical-align: top;
+	size: 155px;
+	cell-padding-top: 2px;
+	cell-padding-right: 5px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 5;
+	name: Column3;
+	text-align: left;
+	vertical-align: top;
+	cell-padding-top: 2px;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+	text-align: left;
+	vertical-align: middle;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 0px;
+	separator-color: #000000;
+	name: Body1;
+	id: 1;
+	vertical-align: top;
+	text-align: left;
+	cell-content-style-class: ImgText;
+	cell-padding-bottom: 15px;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+	text-align: left;
+	vertical-align: middle;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-ColorLegend
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-left-width: 0px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-right-width: 0px;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-ColorLegend-Column-Column1
+{
+	width: 50px;
+}
+
+.TableStyle-ColorLegend-Column-Column2
+{
+	width: 155px;
+}
+
+.TableStyle-ColorLegend-Column-Column3
+{
+	
+}
+
+.TableStyle-ColorLegend-Head-Header1
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadI-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadI-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadE-Column1-Header1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadE-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadF-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadF-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadH-Column1-Header1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadH-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadD-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadD-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadC-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadC-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadB-Column1-Header1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadB-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadA-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadA-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadG-Column1-Header1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadG-Column1-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadI-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadI-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadE-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadE-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadF-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadF-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadH-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadH-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadD-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadD-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadC-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadC-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadB-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadB-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadA-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadA-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadG-Column2-Header1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadG-Column2-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadI-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadI-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadE-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadE-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadF-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadF-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadH-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadH-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadD-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ColorLegend-HeadD-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadC-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadC-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadB-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadB-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadA-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadA-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-HeadG-Column3-Header1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-HeadG-Column3-Header1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-Foot-Footer1
+{
+	
+}
+
+.TableStyle-ColorLegend-FootI-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootI-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootE-Column1-Footer1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootE-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootF-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootF-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootH-Column1-Footer1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootH-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootD-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootD-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootC-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootC-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootB-Column1-Footer1
+{
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootB-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootA-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootA-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootG-Column1-Footer1
+{
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootG-Column1-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootI-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootI-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootE-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootE-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootF-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootF-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootH-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootH-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootD-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootD-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootC-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootC-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootB-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootB-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootA-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootA-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootG-Column2-Footer1
+{
+	padding-right: 5px;
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootG-Column2-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootI-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootI-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootE-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootE-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootF-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootF-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootH-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootH-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootD-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ColorLegend-FootD-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootC-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootC-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootB-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootB-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootA-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootA-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-FootG-Column3-Footer1
+{
+	padding-top: 2px;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.TableStyle-ColorLegend-FootG-Column3-Footer1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-Body-Body1
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyI-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyI-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyE-Column1-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ColorLegend-BodyE-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyF-Column1-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyF-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyH-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ColorLegend-BodyH-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyD-Column1-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyD-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyC-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyC-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyB-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	border-right-width: 0px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ColorLegend-BodyB-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyA-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyA-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyG-Column1-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.TableStyle-ColorLegend-BodyG-Column1-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyI-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyI-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyE-Column2-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyE-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyF-Column2-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyF-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyH-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyH-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyD-Column2-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyD-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyC-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyC-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyB-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyB-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyA-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyA-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyG-Column2-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-right: 5px;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyG-Column2-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyI-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyI-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyE-Column3-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyE-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyF-Column3-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyF-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyH-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyH-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyD-Column3-Body1
+{
+	padding-bottom: 15px;
+	border-bottom-width: 0px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyD-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyC-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyC-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyB-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyB-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyA-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyA-Column3-Body1 p
+{
+	
+}
+
+.TableStyle-ColorLegend-BodyG-Column3-Body1
+{
+	padding-bottom: 15px;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 2px;
+}
+
+.TableStyle-ColorLegend-BodyG-Column3-Body1 p
+{
+	
+}
+
+

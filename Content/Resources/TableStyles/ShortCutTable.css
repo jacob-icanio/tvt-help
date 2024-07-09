@@ -1,0 +1,865 @@
+/* MadCap Table Style: */
+
+/*<meta Version="9" />*/
+
+mcTableStyle
+{
+	name: ShortCutTable;
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-width: 1px;
+	border-left-color: #000000;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	max-id: 4;
+	float: left;
+	padding-right: 10px;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Key1;
+	id: 0;
+}
+
+mcTableColumnStyle
+{
+	span: 1;
+	id: 4;
+	name: Plus1;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	font-family: Calibri;
+	cell-content-style-tag: p;
+}
+
+mcTableHeadStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Header1;
+	id: 2;
+}
+
+mcTableBodyStyle
+{
+	span: 1;
+	separator-style: none;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: KeyRow;
+	id: 1;
+}
+
+mcTableFootStyle
+{
+	span: 1;
+	separator-style: solid;
+	separator-width: 1px;
+	separator-color: #000000;
+	name: Footer1;
+	id: 3;
+}
+
+
+/* Cell Styles: */
+ 
+.TableStyle-ShortCutTable
+{
+	border-collapse: collapse;
+	border-left-style: none;
+	border-left-color: #000000;
+	border-left-width: 1px;
+	border-right-style: none;
+	border-right-color: #000000;
+	border-right-width: 1px;
+	border-top-style: none;
+	border-top-color: #000000;
+	border-top-width: 1px;
+	border-bottom-style: none;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	border-spacing: 0px 0px;
+}
+
+.TableStyle-ShortCutTable-Column-Key1
+{
+	
+}
+
+.TableStyle-ShortCutTable-Column-Plus1
+{
+	
+}
+
+.TableStyle-ShortCutTable-Head-Header1
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadI-Key1-Header1
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadI-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadE-Key1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadE-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadF-Key1-Header1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadF-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadH-Key1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-HeadH-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadD-Key1-Header1
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadD-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadC-Key1-Header1
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadC-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadB-Key1-Header1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-HeadB-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadA-Key1-Header1
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadA-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadG-Key1-Header1
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadG-Key1-Header1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-HeadI-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadI-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadE-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadE-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadF-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadF-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadH-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadH-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadD-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: solid;
+}
+
+.TableStyle-ShortCutTable-HeadD-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadC-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadC-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadB-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadB-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadA-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadA-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-HeadG-Plus1-Header1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-HeadG-Plus1-Header1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-Foot-Footer1
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootI-Key1-Footer1
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootI-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootE-Key1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootE-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootF-Key1-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootF-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootH-Key1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-FootH-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootD-Key1-Footer1
+{
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootD-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootC-Key1-Footer1
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootC-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootB-Key1-Footer1
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-FootB-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootA-Key1-Footer1
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootA-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootG-Key1-Footer1
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootG-Key1-Footer1 p
+{
+	
+}
+
+.TableStyle-ShortCutTable-FootI-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootI-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootE-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootE-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootF-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootF-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootH-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootH-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootD-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+	border-top-width: 1px;
+	border-top-color: #000000;
+	border-top-style: solid;
+}
+
+.TableStyle-ShortCutTable-FootD-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootC-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootC-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootB-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootB-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootA-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootA-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-FootG-Plus1-Footer1
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-FootG-Plus1-Footer1 p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-Body-KeyRow
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyI-Key1-KeyRow
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyI-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyE-Key1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-BodyE-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyF-Key1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ShortCutTable-BodyF-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyH-Key1-KeyRow
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-BodyH-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyD-Key1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+}
+
+.TableStyle-ShortCutTable-BodyD-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyC-Key1-KeyRow
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyC-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyB-Key1-KeyRow
+{
+	border-right-width: 1px;
+	border-right-color: #000000;
+	border-right-style: none;
+}
+
+.TableStyle-ShortCutTable-BodyB-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyA-Key1-KeyRow
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyA-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyG-Key1-KeyRow
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyG-Key1-KeyRow p
+{
+	
+}
+
+.TableStyle-ShortCutTable-BodyI-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyI-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyE-Plus1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyE-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyF-Plus1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyF-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyH-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyH-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyD-Plus1-KeyRow
+{
+	border-bottom-width: 1px;
+	border-bottom-color: #000000;
+	border-bottom-style: none;
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyD-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyC-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyC-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyB-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyB-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyA-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyA-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+.TableStyle-ShortCutTable-BodyG-Plus1-KeyRow
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.TableStyle-ShortCutTable-BodyG-Plus1-KeyRow p
+{
+	font-family: Calibri;
+	font-size: 0px;
+	font-weight: bold;
+}
+
+

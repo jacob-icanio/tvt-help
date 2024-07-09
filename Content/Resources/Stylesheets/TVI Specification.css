@@ -1,0 +1,513 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+/*<meta sourceDocument="C:\Test\tvi\TVI Specification.docx" />*/
+
+p
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ol
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+ul
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+li
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 12pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+
+td
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+p.Title
+{
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-align: center;
+	mc-heading-level: 1;
+	font-family: 'Futura Md BT';
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+p.Title_1
+{
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-align: center;
+	mc-heading-level: 1;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: Calibri;
+}
+
+span.span_1
+{
+	font-family: Calibri;
+}
+
+h1.Heading1
+{
+	page-break-after: avoid;
+	page-break-before: always;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 1;
+	font-family: 'Futura Md BT';
+	font-weight: bold;
+	font-size: 16pt;
+}
+
+MadCap|xref.ParaTextOnly
+{
+	mc-format: '{paratext}';
+}
+
+h2.Heading2
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 2;
+	font-family: 'Futura Md BT';
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+h3.Heading3
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 3;
+	font-family: 'Futura Md BT';
+	font-weight: bold;
+	font-style: normal;
+	font-size: 13pt;
+}
+
+span.span_2
+{
+	margin-right: 0pt;
+	font-family: 'Times New Roman';
+}
+
+h1.Heading1_1
+{
+	page-break-after: avoid;
+	page-break-before: always;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 1;
+	font-weight: bold;
+	font-size: 16pt;
+	font-family: 'Futura Md BT';
+}
+
+p.p_1
+{
+	font-family: Calibri;
+}
+
+img.img_1
+{
+	width: 593px;
+	height: 414px;
+}
+
+li.li_1
+{
+	font-family: Calibri;
+}
+
+ol.ol_1
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 36pt;
+}
+
+ol.ol_2
+{
+	padding-left: 0px;
+	list-style-type: lower-alpha;
+	margin-left: 36pt;
+}
+
+h2.Heading2_1
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 2;
+	font-weight: bold;
+	font-size: 14pt;
+	font-family: Calibri;
+}
+
+h3.Heading3_1
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 3;
+	font-weight: bold;
+	font-style: normal;
+	font-family: 'Futura Md BT';
+	font-size: 13pt;
+}
+
+img.img_2
+{
+	visibility: visible;
+	mso-wrap-style: square;
+	width: 350px;
+	height: 139px;
+}
+
+p.p_2
+{
+	text-align: center;
+	font-family: Calibri;
+}
+
+ul.ul_1
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 36pt;
+}
+
+span.HTMLCode
+{
+	font-size: 8pt;
+}
+
+MadCap|footnote.footnote
+{
+	mc-footnote-comment-format: '{n}';
+	mc-footnote-format: '{n}';
+}
+
+span.FootnoteText
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 10pt;
+}
+
+p.FootnoteText
+{
+	font-family: 'Stempel Garamond neu';
+	font-size: 10pt;
+}
+
+h4.Heading4
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 4;
+	font-size: 13pt;
+	font-weight: normal;
+	font-family: 'Futura Md BT';
+}
+
+span.HTMLCode_1
+{
+	font-size: 8pt;
+	font-family: Calibri;
+}
+
+p.p_3
+{
+	margin-left: 5pt;
+	margin-right: 5pt;
+	text-align: center;
+	font-family: 'Courier New';
+}
+
+div.div_1
+{
+	left: 25025;
+	top: 1797;
+	visibility: visible;
+	mso-wrap-style: square;
+	v-text-anchor: top;
+	width: 343pt;
+	height: 137pt;
+}
+
+span.span_3
+{
+	font-family: 'Courier New';
+}
+
+p.p_4
+{
+	margin-left: 5pt;
+	margin-right: 5pt;
+	text-align: center;
+}
+
+div.div_2
+{
+	left: 23298;
+	top: 8655;
+	visibility: visible;
+	mso-wrap-style: square;
+	v-text-anchor: top;
+	width: 514pt;
+	height: 137pt;
+}
+
+div.div_3
+{
+	left: 11874;
+	top: 17799;
+	visibility: visible;
+	mso-wrap-style: square;
+	v-text-anchor: top;
+	width: 514pt;
+	height: 137pt;
+}
+
+div.div_4
+{
+	left: 23304;
+	top: 17799;
+	visibility: visible;
+	mso-wrap-style: square;
+	v-text-anchor: top;
+	width: 514pt;
+	height: 137pt;
+}
+
+div.div_5
+{
+	left: 34734;
+	top: 17799;
+	visibility: visible;
+	mso-wrap-style: square;
+	v-text-anchor: top;
+	width: 514pt;
+	height: 137pt;
+}
+
+p.FootnoteText_1
+{
+	font-size: 10pt;
+	font-family: Calibri;
+}
+
+p.p_5
+{
+	font-family: Calibri;
+	font-weight: bold;
+}
+
+th.th_1
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+th.th_2
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_1
+{
+	border-left-style: solid;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_2
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+	padding-left: 4px;
+	vertical-align: middle;
+}
+
+td.td_3
+{
+	border-bottom-style: solid;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-style: solid;
+	border-right-width: 1pt;
+	border-right-color: black;
+	text-align: center;
+}
+
+table.table_1
+{
+	border-collapse: collapse;
+}
+
+h4.Heading4_1
+{
+	page-break-after: avoid;
+	margin-top: 12pt;
+	margin-bottom: 3pt;
+	text-indent: 0pt;
+	margin-left: 0pt;
+	mc-heading-level: 4;
+	font-size: 13pt;
+	font-weight: normal;
+	font-family: 'Futura Md BT';
+}
+
+p.p_6
+{
+	margin-left: 0pt;
+	text-indent: 63pt;
+}
+
+p.p_7
+{
+	margin-left: 0pt;
+	text-indent: 63pt;
+	text-align: center;
+}
+
+p.p_8
+{
+	margin-left: 0pt;
+	text-indent: 63pt;
+	text-align: center;
+	font-family: Calibri;
+}
+
+p.p_9
+{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+span.span_4
+{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+sup.sup_1
+{
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 10pt;
+}
+
+span.span_5
+{
+	font-family: Calibri;
+	font-size: 10pt;
+}
+
+img.img_3
+{
+	visibility: visible;
+	mso-wrap-style: square;
+	width: 187px;
+	height: 57px;
+}
+
+p.p_10
+{
+	margin-left: 5pt;
+	margin-right: 5pt;
+	text-align: right;
+}
+
+h2
+{
+	font-size: 15pt;
+	font-weight: bold;
+	font-style: normal;
+}
+
+h3
+{
+	font-family: 'Futura Md BT';
+	font-size: 13pt;
+	font-weight: bold;
+	font-style: normal;
+}
+
+h1
+{
+	font-family: 'Futura Md BT';
+	font-size: 16pt;
+	font-weight: bold;
+	font-style: normal;
+}
+
